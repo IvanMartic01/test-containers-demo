@@ -1,29 +1,33 @@
-# README #
+# Test Containers Demo Project
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains a demo project showcasing the use of **Testcontainers** for integration testing in a Spring Boot application. It provides examples of containerized databases and demonstrates how to test repository and service layers effectively.
 
-### What is this repository for? ###
+## What is this repository for?
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- **Purpose**: To demonstrate the use of **Testcontainers** with Spring Boot for integration testing.
+- **Features**:
+    - Spring Boot application setup.
+    - Database containerization for testing.
+    - Integration tests for repository and service layers.
 
-### How do I get set up? ###
+### Prerequisites
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Make sure you have the following installed on your machine:
+- JDK 21 or later
+- Maven 3.8 or later
+- Docker
 
-### Contribution guidelines ###
+### Run the application
 
-* Writing tests
-* Code review
-* Other guidelines
+1. Position yourself in the project root directory.
+2. Run the following command:
+```sh
+docker-compose up -d
+```
+3. Start the Spring Boot application
 
-### Who do I talk to? ###
+### Run tests
 
-* Repo owner or admin
-* Other community or team contact
+```sh
+mvn test
+```

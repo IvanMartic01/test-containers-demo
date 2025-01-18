@@ -10,15 +10,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>rs.codeeco</groupId>
+	<groupId>com.martic</groupId>
 	<artifactId>test-containers-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 
 	<properties>
 		<java.version>23</java.version>
 		<assertJ.version>3.27.2</assertJ.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
